@@ -7,12 +7,12 @@ Since Rails by design was meant to be flexible, the result is that there are typ
 
 What's a real world difference between using hard coded paths compared with route helper methods? Let's imagine that you have a meeting in NYC, and you want to get from one side of the city to the other. You have a couple different options:
 
-1. Traverse the streets on foot
+1. Take the Subway
 2. Take a taxi
 
-Walking is like hard coding your route's path. Technically, it can work. However, it's slow, potentially error-prone (one small mistake can lead to the wrong part of town), and, if the meeting location changes, it will require quite a bit of manual work to adjust and walk to the new destination.
+Taking the subway is like hard coding your route's path. Technically, it can work. However, it's slow, error-prone (one small mistake can lead to the wrong part of town), and, if the meeting location changes, it will require quite a bit of manual work to adjust to the new destination.
 
-Taking a taxi is like using a route helper: you can simply provide the address to the driver and let them navigate the city streets for you. It is faster than walking, and, if the address for the meeting changes while you're en route, it's not as difficult or slow to adjust.
+Taking a taxi is like using a route helper: you can simply provide the address to the driver and let them navigate the city streets for you. It is faster than the subway, and if the address for the meeting changes while you're en route, it's not as difficult or slow to adjust.
 
 Don't worry if it's still a little fuzzy. Here's an example of what it looks like in code:
 
